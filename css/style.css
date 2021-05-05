@@ -1,0 +1,133 @@
+/* GENERAL */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Merriweather', serif;
+}
+
+p,span,a,ul,label {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Mode sombre */
+.dark {
+    background-color: #112F41;
+    color: #ffffff;
+  }
+  
+  .dark button {
+    background: #144098;
+    color: #fff;
+  }
+
+
+/* LOGO */
+
+/* CSS HEADER */
+header, div.center {
+    height: 100vh;
+}
+header nav.navbar {
+    /* background-color: #baebff !important; */
+    background-color: rgb(218, 218, 218)!important;
+    z-index: 1;
+}
+
+div.scroll {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 0%;
+    height: 5px;
+    background-color: rgb(0, 0, 255);
+}
+
+section.header-center span#typed {
+    color: #0563bb;
+}
+
+section.header-center {
+    flex: 1;
+}
+
+input.cursor-pointer {
+    cursor: pointer;
+}
+
+
+/* CSS MAIN */
+section.competences, footer {
+    background-color: rgb(218, 218, 218)!important;
+}
+
+article.diplomes::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -10px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #0563bb;
+}
+
+div.card-contact {
+    background: center / cover no-repeat url("../img/background/message.png");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 340px;
+    width: 100%;
+}
+
+input.btn-width {
+    min-width: 200px;
+}
+
+input, textarea {
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
+}
+
+img.float {
+    float: right;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+    }
+    section.header-background {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    section.header-background {
+        display: block;
+    }
+    section.presentation div.presentation-flex {
+        display: flex;
+    }
+    section.competences {
+        margin-top: 2rem;
+    }
+    section.description {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.header-background {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section.competences img {
+        width: 30%!important;
+    }
+}

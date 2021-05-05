@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/background-header.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <!-- TITRE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap" rel="stylesheet">
+    <!-- TEXTE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap" rel="stylesheet">
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- FICHIERS CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cédric Hourcade</title>
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg p-0 navbar-light position-fixed top-0 w-100">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo/iconmonstr-code-2.svg" alt="Balise HTML"
+                        height="50px" width="100px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#section-presentation">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#section-competences">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#section-formations">Formations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#section-portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#section-contact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input cursor-pointer" type="checkbox" id="darkMode">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Mode Sombre</label>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll"></div>
+        </nav>
+        <!-- ACCEUIL -->
+        <section class="header-background d-flex">
+            <section class="header-center text-center m-auto">
+                <h1>Cédric Hourcade</h1>
+                <h2 class="text-xl">Je suis <span id="typed"></span></h2>
+                <a href="https://github.com/CedricHourcade" target="_blank" class="me-2"><img src="img/reseaux/github.svg" alt="github" width="30"></a>
+                    <a href="https://www.linkedin.com/in/cedrichourcade/" target="_blank" class="me-2"><img src="img/reseaux/linkedin.svg" alt="linkedin" width="30"></a>
+            </section>
+            <section class="header-img mt-5">
+                <img src="img/background/background-header.png" alt="Developpeur Web image" class="img-fluid">
+            </section>
+        </section>
+    </header>
+    <main>
+        <section class="presentation" id="section-presentation">
+            <div class="container text-center presentation-flex">
+                <figure><img src="img/profil/profil.jpg" alt="photo de profil" class="img-fluid w-60 p-3 rounded">
+                </figure>
+                <section class="description text-start ms-3">
+                    <h1 class="fw-bold">Hourcade Cédric</h1>
+                    <h2>Développeur Web Junior</h2>
+                    <p>Bonjour je m'appelle <span class="fw-bold">Cédric Hourcade</span> je suis Développeur Web Junior.
+                        J'ai suivi un Bac pro Système Electronique Numériques (SEN) ansi qu'un BEP SEN. Aimant
+                        l'informatique dés mon plus jeune âge, j'ai décidé de me former au <span
+                            class="fw-bold">Développement WEB</span> pour cela j'ai suivi une formation a la 3WAcademy.
+                        Durant lequel j'ai pu réaliser plusieurs projets.</p>
+                    <p>Je recherche actuellement une <strong>alternance</strong> qui débutera le 3 juin 2021 jusqu'au 22
+                        Février 2022</p>
+                    <p>Je vous mets mon CV en télechargement <a href="cv/cv.pdf" download="cv/cv.pdf"
+                            class="text-decoration-none">ici</a></p>
+                            <!-- SECTION DETAILS -->
+                    <section class="details mt-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <ul>
+                                    <li>Age: 22</li>
+                                    <li>Diplômes: Bac</li>
+                                    <li>Ville: Marseille</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul>
+                                    <li>Email: cedric.hourcade1@gmail.com</li>
+                                    <li>Opportunité: Alternance</li>
+                                    <li>Ville: Marseille</li>
+                                </ul>
+                            </div>
+                            <h3 class="mt-3 fw-bold">Soft Skills</h3>
+                            <div class="col-md-4 mt-3">
+                                <ul>
+                                    <li>Esprit d'équipe</li>
+                                    <li>Développement personnel</li>
+                                    <li>Autonome</li>
+                                    <li>Rigueur</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </section>
+        <section class="competences text-center bg-secondary mt-0 pb-4" id="section-competences">
+                <div class="container">
+                <h1 class="pt-4">Compétences</h1>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <h2>Langages</h2>
+                        <ul class="list-group text-start p-3">
+                            <li class="list-group-item"><img src="img/competences/html.png" alt="html5"
+                                    class="img-fluid w-50">HTML5</li>
+                            <li class="list-group-item"><img src="img/competences/css.png" alt="css3"
+                                    class="img-fluid w-50">CSS3</li>
+                            <li class="list-group-item"><img src="img/competences/js.png" alt="javascript"
+                                    class="img-fluid w-50">JavaScript</li>
+                            <li class="list-group-item"><img src="img/competences/php.png" alt="php"
+                                    class="img-fluid w-50">PHP</li>
+                            <li class="list-group-item"><img src="img/competences/mysql.png" alt="mysql"
+                                    class="img-fluid w-50">Mysql</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h2>Frameworks</h2>
+                        <ul class="list-group text-start p-3">
+                            <li class="list-group-item"><img src="img/competences/angular.png" alt="angular"
+                                    class="img-fluid w-50">Angular</li>
+                            <li class="list-group-item"><img src="img/competences/jquery.png" alt="jquery"
+                                    class="img-fluid w-50">Jquery</li>
+                            <li class="list-group-item"><img src="img/competences/bootstrap.png" alt="bootstrap"
+                                    class="img-fluid w-50">Bootstrap</li>
+                            <li class="list-group-item"><img src="img/competences/symfony.png" alt="symfony"
+                                    class="img-fluid w-50">Symfony</li>
+                            <li class="list-group-item"><img src="img/competences/wordpress.png" alt="wordpress"
+                                    class="img-fluid w-50">Wordpress</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <h2>Editeur de code</h2>
+                        <ul class="list-group text-start p-3">
+                            <li class="list-group-item"><img src="img/competences/visual.png" alt="visual studio code"
+                                    class="img-fluid w-50"> Visual Studio Code</li>
+                            <li class="list-group-item"><img src="img/competences/sublime.png" alt="sublime text"
+                                    class="img-fluid w-50">Sublime Text</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </section>
+        <!-- ici -->
+        <section class="formations" id="section-formations">
+        <div class="container">
+                <div class="section-title">
+                    <h1 class="text-center pt-4">Mes formations</h1>
+                </div>
+                <h2 class="mt-5 mb-4">Diplômes</h2>
+                <article class="diplomes position-relative border-start border-primary border-3 ps-3">
+                    <p class="fw-bold">Développeur Web / Web Mobile - Webforce3</p>
+                    <h3>2021-2021</h3>
+                    <p class="fw-normal"><em>Formation réalisé à Webforce3, c'est une formation qui dure 3 mois auquel
+                            on apprend le HTML5,CSS3,JavaScript,PHP,Mysql</em></p>
+                    <ul>
+                        <li>WebForce3</li>
+                        <li class="mt-2">CIC, 8 allée Léon Gambetta, place de l'Innnovation, 13001 Marseille</li>
+                    </ul>
+                </article>
+
+                <article class="diplomes position-relative border-start border-primary mt-4 border-3 ps-3">
+                    <p class="fw-bold">Bac pro Système Electronique Numérique</p>
+                    <h3>2016-2017</h3>
+                    <p class="fw-normal"><em>Le diplôme du Bac pro Systèmes Electroniques Numériques (SEN) a pour but de
+                            former des techniciens capables d’intervenir sur les équipements et les installations
+                            électroniques ou numériques, que ce soit pour un particulier, un professionnel ou dans le
+                            milieu industriel.</em></p>
+                    <ul>
+                        <li>Lycée École Modèle d'Electronique</li>
+                    </ul>
+                </article>
+
+                <article class="diplomes position-relative border-start border-primary mt-4 border-3 ps-3">
+                    <p class="fw-bold">BEP Système Electronique numérique</p>
+                    <h3>2014-2015</h3>
+                    <p class="fw-normal"><em>Le diplôme du BEP Systèmes Electroniques Numériques (SEN) valide un
+                            ensemble de connaissances et de compétences générales et professionnelles de niveau V,
+                            intégrées dans le référentiel du Baccalauréat Professionnel Systèmes Electroniques
+                            Numériques (SEN).</em></p>
+                    <ul>
+                        <li>Lycée École Modèle d'Electronique</li>
+                    </ul>
+                </article>
+            </div>
+            </section>
+
+            <section class="portfolio" id="section-portfolio">
+        <div class="container">
+                <h1 class="text-center mt-5">Portfolio</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <figure><img src="img/portfolio/cupoftea.jpg" class="card-img-top img-fluid"
+                                    alt="cup of tea"></figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Cup Of Tea</h5>
+                                <p class="card-text">Projet réalisé en 2 jours avec du HTML / CSS</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card text-center">
+                            <figure><img src="img/portfolio/coming.png" class="card-img-top img-fluid" alt="A venir">
+                            </figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Projet à venir</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-3">
+                        <div class="card text-center">
+                            <figure><img src="img/portfolio/coming.png" class="card-img-top img-fluid" alt="A venir">
+                            </figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Projet à venir</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-3 mb-4">
+                        <div class="card text-center">
+                            <figure><img src="img/portfolio/coming.png" class="card-img-top img-fluid" alt="A venir">
+                            </figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Projet à venir</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+        <section class="contact" id="section-contact">
+        <div class="container">
+                <form action="#" method="POST">
+                    <div class="card-contact">
+                        <h1 class="text-center pt-3 fw-bold">Me contacter</h1>
+                    </div>
+                    <div class="body-form">
+                        <div class="mb-3 mt-3">
+                            <label for="exampleFormControlInput1" class="form-label">Votre nom:</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput"
+                                placeholder="Entrez votre nom">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Votre Email:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2"
+                                placeholder="Entrez votre email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Votre objet:</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput3"
+                                placeholder="Entrez votre objet">
+                        </div>
+
+                        <label for="exampleFormControlTextarea1" class="form-label">Votre message:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Votre message"></textarea>
+                    </div>
+                    <div class="container mt-3 text-center mb-4">
+                        <input type="submit" class="btn btn-primary btn-width p-2" value="Envoyer &#10148;">
+                    </div>
+                </form>
+            </div>
+            </section>
+        <footer>
+            <section>
+                <div class="container text-center p-5">
+                    
+                    <a href="">Mentions Légales</a>
+                    <div class="mt-3">
+                        <p>© 2021 Cédric Hourcade , Tous droits réservés.</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </main>
+
+
+
+
+    <!-- JS -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
